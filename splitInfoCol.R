@@ -1,4 +1,4 @@
-# A data.table implementation of VCF data processing: split the INFO column into its parts and reformat to just the data.
+# A data.table implementation of VCF metadata processing: split the INFO column into its parts and reformat to just the data values. The col names here are from Platypus variant caller.
 # Extremely fast!
 
 library(data.table)
