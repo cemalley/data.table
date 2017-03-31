@@ -7,8 +7,8 @@ library(ggplot2)
 library(ggthemes)
 
 # 1. get number of variants in each data.table
-x <- il4r.preQC[,.N] #24961
-x2 <- il4r[,.N]#17428
+il4r.preQC[,.N] #24961
+il4r[,.N] #17428
 
 # 2. new column where "ID" just indicates there is a variant present. 
 il4r.preQC[,ID := seq(1, 24961, 1)]
